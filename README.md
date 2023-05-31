@@ -12,17 +12,17 @@ Clone the repo onto your local machine and unzip the .tar.gz inside your /push_s
 ```
 git clone https://github.com/Niimphu/push_swap_visualiser.git
 tar -xf push_swap_visualiser/PushSwapVisualiser.tar.gz
-mv push_swap_visualiser/PushSwapVisualiser PushSwapVisualiser
 ```
 
 ## How to use
 
 Make sure that you either have your `push_swap` executable in your /push_swap directory, or that you modify the path in `compute.sh` to the relative path of your exectuable.
 
-`cd` into the PushSwapVisualiser directory and run `PushSwapVisualiser.x86_64`.
+`cd` into the /bin directory and run `PushSwapVisualiser.x86_64`.
 
 ```
-./PushSwapVisualiser/PushSwapVisualiser.86_64
+cd bin
+./PushSwapVisualiser.x86_64
 ```
 
 Enter a value for stack size and click generate.
