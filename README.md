@@ -12,7 +12,7 @@ Clone the repo onto your local machine and unzip the .tar.gz inside your /push_s
 ```
 git clone https://github.com/Niimphu/push_swap_visualiser.git
 tar -xf push_swap_visualiser/PushSwapVisualiser.tar.gz
-mv push_swap_visualiser/PushSwapVisualiser
+mv push_swap_visualiser/PushSwapVisualiser PushSwapVisualiser
 ```
 
 ## How to use
