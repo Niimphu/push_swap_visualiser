@@ -4,6 +4,7 @@ A program to test and visualise the output of the 42 project program push_swap, 
 <img src='https://github.com/Niimphu/push_swap_visualiser/blob/main/gifs/PSVbig.gif.gif' width='800'>
 
 Note: not sure if these work yet, build on Windows and I can't test the Mac version but will update soon. Please let me know if you find bugs!
+Currently not optimised for high stack size with high speed.
 
 ## Installation
 
