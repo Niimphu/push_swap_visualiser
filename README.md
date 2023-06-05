@@ -1,63 +1,57 @@
 # push_swap_visualiser
-A program to test and visualise the output of the 42 project program push_swap, made in Godot 4.0. There may be bugs present.
+## 🌙 About
+A program to test and visualise the output of the 42 project program push_swap, made in Godot 4.0.
 
-<img src='https://github.com/Niimphu/push_swap_visualiser/blob/main/gifs/PSVbig.gif.gif' width='800'>
+<img src='https://github.com/Niimphu/push_swap_visualiser/blob/main/gifs/psv_demo.gif' width='800'>
 
-Note: not sure if these work yet, build on Windows and I can't test the Mac version but will update soon. Please let me know if you find bugs!
+### Contributing
+I consider this project open-source, so if anyone would like to make or suggest changes, please reach out! I'm sure there are bugs that I haven't caught yet.
 Currently not optimised for high stack size with high speed.
 
-## Installation
+The source code can be found in my [psv_src](https://github.com/Niimphu/psv_src) repo.
+
+## 🌙 Installation and launch
+
+Clone the repo onto your machine and unzip before launching. (This may take a minute!)
 
 ### Linux
-Clone the repo inside your /push_swap directory and unzip the .tar.gz file.
 
 ```
 git clone https://github.com/Niimphu/push_swap_visualiser.git
-tar -xf push_swap_visualiser/psv_linux.tar.gz
-mv push_swap_visualiser/psv_linux psv_linux
+cd push_swap_visualiser
+tar -xzvf psv_linux.tar.gz
+./psv_linux/psv_linux.x86_64
 ```
 
 ### MacOS
-Clone the repo inside your /push_swap directory and unzip the .zip file.
 
 ```
 git clone https://github.com/Niimphu/push_swap_visualiser.git
-unzip push_swap_visualiser/psv_mac.zip
-mv push_swap_visualiser/psv_mac psv_mac
+cd push_swap_visualiser
+unzip psv_mac.zip
+open PushSwapVisualiser.app
 ```
 
-## How to use
-
-### Launching on Linux
-
-Make sure that you either have your `push_swap` executable in your /push_swap directory, or that you modify the path in `compute.sh` to the relative path of your exectuable.
-
-`cd` into the /psv_linux directory and run `PushSwapVisualiser.x86_64`.
-
-```
-cd bin
-./PushSwapVisualiser.x86_64
-```
-
-### Launching on Mac
-
-... I think you just do
-
-```
-open push_swap_visualiser/psv_mac/psv_mac.app
-```
-
-... maybe
+## 🌙 How to use
 
 
-### Using the visualiser
+### Adding your push_swap executable to the program
 
-Enter a value for stack size and click generate.
+Using the default file explorer for your system -NOT your code editor- drag and drop your compiled `push_swap` executable into the program window.
 
-Click Compute. The program will run your `push_swap`, and if successful, it will display how many commands it outputs.
+### Running the visualiser
 
-Change the speed from the drop-down menu as desired and click `Play/Pause`.
+1. Enter the number of values you would like to test into the `Stack size` box 
+2. Click `Generate` to generate a set of random integers based on your stack size.
+3. Click `Compute` to run the generated values through your `push_swap` executable. The visualiser will display the total number of lines that your `push_swap` generated, as well as the next five steps that will be run.
+4. Change the speed from the drop-down menu as desired (Default value `x1`).
+5. Click `Play/Pause` to run the program.
 
-The `>` and `<` buttons can be used to step forward and back.
+To run the program again, make sure to click `Reset`, or re-`Generate` and `Compute` the values.
 
-<img src='https://github.com/Niimphu/push_swap_visualiser/blob/main/gifs/PSVhowto.gif.gif' width='800'>
+### Optional features
+
+The `>` and `<` buttons can be used to step forward and back while the program is paused.
+Optionally, you can also change the theme using the drop down menu. The defaul colour set is `Whiteout`.
+
+<img src='https://github.com/Niimphu/push_swap_visualiser/blob/main/gifs/psv_howto.gif' width='800'>
