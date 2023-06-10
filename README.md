@@ -7,7 +7,9 @@ A program to test and visualise the output of the 42 project program push_swap, 
 ### Contributing
 I consider this project open-source, so if anyone would like to make or suggest changes, please reach out! I'm sure there are bugs that I haven't caught yet.
 
-The source code can be found in my [psv_src](https://github.com/Niimphu/psv_src) repo.
+The source code can be found in my [psv_src](https://github.com/Niimphu/psv_src) repo. I hope to try and reduce the file size of the binary in the future.
+
+Please remember to star if you found this useful! <img src='https://img.shields.io/github/stars/niimphu/push_swap_visualiser?style=social'>
 
 ## 🌙 Installation and launch
 
