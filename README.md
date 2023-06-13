@@ -18,7 +18,7 @@ Clone the repo onto your machine and unzip before launching. (This may take a mi
 ### Linux
 
 ```
-git clone https://github.com/Niimphu/push_swap_visualiser.git
+git clone https://github.com/Niimphu/push_swap_visualiser.git --depth=1
 cd push_swap_visualiser
 tar -xzvf psv_linux.tar.gz
 ./psv_linux/psv_linux.x86_64
@@ -27,7 +27,7 @@ tar -xzvf psv_linux.tar.gz
 ### MacOS
 
 ```
-git clone https://github.com/Niimphu/push_swap_visualiser.git
+git clone https://github.com/Niimphu/push_swap_visualiser.git --depth=1
 cd push_swap_visualiser
 unzip psv_mac.zip
 open PushSwapVisualiser.app
